@@ -1,0 +1,11 @@
+*Para iniciar necesitamos crear un archivo con la terminacion .html
+
+*Poner base de etiquetas html : html + : + 5 + enter
+
+*Etiquetas  que tienen de apertura y cierre
+
+*un archo html se puede visualizar en un explorador 
+
+<a>ETIQUETA PARA ENLACES<a>
+
+Algunas etiquetas necesitan atributos
