@@ -1,0 +1,23 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    background-color: rgb(231, 106, 179);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.hijo{
+    width: 150px;
+    height: 100px;
+    border: 10px solid rgb(65, 22, 6);
+    background-color: aqua;
+    position: absolute;
+    /* float: right ;*/ 
+    right: 50%;
+    top: 50%;
+    transform: translate(-50% -50%S);
+}

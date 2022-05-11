@@ -1,0 +1,105 @@
+.logo{
+    width:450px;
+    height:75;
+    margin-left: 200px;
+    margin-top: 1%;
+}
+body{
+    /* margin: 50px; */
+    margin: 0;
+
+}
+.menuPrincipal{
+    margin-top: 4%;
+    background-color: rgba(196, 52, 112, 0.911);
+    padding: 20px
+}
+.opciones{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    width: 100%
+}
+.menu2{
+    margin-left: 200px;
+    font-family:Arial;
+}
+.desc{
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-right: 480px;
+}
+article{
+    margin-left: 200px;
+}
+.img{
+    width: 250px;
+    height: 150px;
+    float: left;
+    font-family:  'Arial Narrow';
+}
+.leer{
+    background-color: aqua;
+    border: aqua;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+.otros{
+    position: absolute;
+    left: 68%;
+    top: 37%;
+    font-family: Arial;
+    font-size: 16px;
+}
+.post{
+        padding-bottom: 1%;
+    color: rgb(41, 130, 212);
+}
+.infoSN{
+    padding: 55px;
+    background-color: rgba(196, 52, 112, 0.911);
+    margin-top: 25px;
+}
+.SN{
+    margin-left: 200px;
+    position: absolute;
+    right: 65%;
+    top: 198%;
+    font-size: 20px;
+}
+.tittle3{
+    position: absolute;
+    top: 190%;
+    font-size: 25px;
+}
+.title3{
+    position: absolute;
+    left: 77%;
+    font-size:25px;
+    top: 190%
+}
+.nav{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+}
+.navC{
+    margin-left: 70%;
+}
+.end{
+
+    padding: 25px;
+    background-color: rgb(102, 12, 114);
+    margin-top: 160px;
+    
+}
+.end1{
+    position: absolute;
+    top: 228%;
+    margin-left: 30%;
+}
