@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    background-color: gray;
+    align-items: center;
+} 
+.lados,.centro{
+    height: 80px;
+    width: 100px;
+    text-align: center;
+}
+.lados{
+    background-color: white;
+}
+.centro{
+    border: blue 4px solid;
+}
+.central{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
