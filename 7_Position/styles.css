@@ -1,0 +1,16 @@
+.cuadro{
+    height: 100px;
+    width: 100px;
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+    position: fixed ;
+     top: 50px;
+    left: 200px;
+}
+.amarillo{
+    background-color: yellow;
+}

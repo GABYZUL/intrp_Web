@@ -1,0 +1,29 @@
+.hero{
+    width: 100%;
+    height:500px;
+    /* background: ; */
+    background-color: blueviolet;
+     background-image: url("https://placebear.com/800/500"); 
+     background-repeat: no-repeat;
+     background-position: center;
+     border-style: cover;
+}
+.patron{
+    width: 100%;
+    height:500px;
+    /* background: ; */
+    background-color: blueviolet;
+     background-image: url("https://placebear.com/800/500"); 
+     background-repeat: no-repeat;
+     /* background-position: center;
+     border-style: cover; */
+}
+.gradient{
+    /* Created with https://www.css-gradient.com */
+        width: auto 100%;
+        height: 500px; 
+         background: #298EA7;
+/* background: -webkit-linear-gradient(top, #298EA7, #BE3B5E);
+background: -moz-linear-gradient(top, #298EA7, #BE3B5E); */
+background: linear-gradient(to bottom, #298EA7, #BE3B5E);
+}

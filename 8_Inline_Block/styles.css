@@ -1,0 +1,16 @@
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+    width: 400px;
+    height: 200px;
+}
+.inline_b{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+}
+p{
+    background-color: violet;
+}
