@@ -1,0 +1,77 @@
+*{
+    margin: 1;
+    padding: 0;
+}
+
+.contain{
+    display: flex;
+    /* flex-direction: row; */
+    height: 100%;
+    background-color: rgb(131, 124, 124);
+
+}
+.centro{
+    text-align: justify;
+    height: 200px;
+    width: 100px;
+}
+.arriba1{
+    width: 225px;
+    height: 270px;
+    background-color: rgb(127, 205, 119);
+    margin-bottom: 10px;
+}
+.abajo1{
+    width: 225px;
+    height: 110px;
+    background-color: rgb(225, 193, 95);
+    margin-bottom: 10px;
+}
+.izquierda{
+    margin-top:15px;
+    margin-left:15px ;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(218, 199, 54);
+}
+.arriba3{
+    background-color: blueviolet;
+    width: 219px;
+    height: 270px;
+    margin-left: 64%;
+}
+.abajo2{
+    background-color: rgb(175, 139, 209);
+    margin-top: 0;
+    width: 450px;
+    height:110px;
+    margin-left: 142px;
+    position: absolute;
+}
+.arriba4{
+    background-color: blueviolet;
+    width: 219px;
+    height: 270px;
+    margin-left: 57%;
+    margin-right: 50px;
+}
+.derecha{
+    margin-top: 15px; 
+    /* margin-right: 100px; */
+    margin-left: 76%;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(218, 199, 54);
+    position: absolute;
+}
+.centrar{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
