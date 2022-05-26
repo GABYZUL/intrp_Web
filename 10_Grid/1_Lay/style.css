@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    display: grid;
+     grid-template-columns: 20% 50% 30%;
+     grid-template-rows: auto auto auto;
+}
+.element{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(151, 151, 198);
+    border: 3px rgb(228, 157, 131) solid;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;   
+}
+.aside{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

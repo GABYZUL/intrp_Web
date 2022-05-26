@@ -1,0 +1,36 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ .contain{
+     /* Cuando es display grid desponemos del todo espacio disonible */
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: 100px 500px 100px 500px;
+     /* column-gap: 20px;
+     row-gap: 40px; */
+     /* gap: 10px 50px; */
+     gap: 20px;
+ }
+ 
+ .elementos{
+     background-color: rgb(137, 114, 159);
+     padding: 20px;
+     border: 2px solid rgb(236, 11, 146);
+ }
+ .ele1{
+     background-color: rgb(152, 107, 107);
+     /* Espacio horizontal */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column: 1/ span 2; */
+
+    /* Espacio vertical */
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    /* grid-row: 1 / 3; */
+
+    grid-area: 1 / 1 / span 3/ span 2;
+    /* Indica los primeros desde donde inicia hasta donde terminan los segundos */
+
+ }
