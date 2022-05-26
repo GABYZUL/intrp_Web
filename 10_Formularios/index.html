@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario </title>
+</head>
+<body>
+    <form onsubmit="tuFuncionSubmitdeJS()">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"   placeholder="Escribe tu nombre completo"> 
+        <!-- readonly -  SOLO LO HACE QUE NO SE PUEDA INTERACTUAR value="Gabriela Carrion" AYUDA A APARECER LLENO -->
+        <br>
+        <br>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad"  >
+        <br>
+        <br>
+        <label for="">Direccion</label>
+        <br>
+        <textarea name="direccion" id="" cols="25" rows="5"> </textarea>
+        <fieldset><label for=""> Lenguaje:
+            <br>
+            <br>
+            <input type="radio" name="Lenguaje" value="javascript"  id="">Java
+            <input type="radio" name="Lenguaje" value="ruby" id="">Ruby
+            <input type="radio" name="Lenguaje" value="phyton" id="">Phyton
+        </label>
+        </fieldset>
+        <br>
+        <br>
+        </label>
+        <FIEldset> Elije:
+            <br>
+            <br>
+            <input type="checkbox" name="frutas" id="peras"> peras
+            <input type="checkbox" name="frutas" id="manzanas"> manzanas
+            <input type="checkbox" name="frutas" id="uvas"> uvas
+        </FIEldset>
+
+        <label for="cookies">
+            <br>
+            Aceptar cookies
+            <input type="checkbox" name="cookies" id="cookies" checked="cheked">
+            <!-- checked ES PARA QUE YA APAREZCA SELLECIONADA -->
+            <br>
+            <br>
+    
+        <select name="estados" id="stados">
+            <optgroup label="Zona A">   
+            <option value="Nuevo Leon">Nuevo Leon</option>
+            <option value="Tamaulipas">Tamaulipas</option>
+            <option value="Jalisco">Jalisco</option>
+            </optgroup> 
+            
+            <optgroup label="Zona B">
+                <option value="Nuevo Leon">Nuevo</option>
+                <option value="Tamaulipas">Lipas</option>
+                <option value="Jalisco">Lsic</option>
+            </optgroup>
+            
+        </select>
+
+        <!-- <input type="button" value="Enviar" onclick="TUFUNCIONDEJS()">  -->
+        <!-- <INPUT type="submit" value="Algo"></INPUT> -->
+        <button onclick="">Algo</button>
+        <br>
+        <br>
+        <input type="range" name="" id="" value="100"> 
+
+
+       <!-- <input type="text">
+       <input type="number" name="" id="">
+       <input type="password" name="" id="">
+       <input type="email" name="" id="">
+       <input type="radio" name="" id="">
+       <input type="checkbox" name="" id="">
+       <input type="date" name="" id=""> 
+         <input type="datetime" name="" id=""> 
+        <input type="datetime-local" name="" id=""> -->
+    </form>
+</body>
+</html>
